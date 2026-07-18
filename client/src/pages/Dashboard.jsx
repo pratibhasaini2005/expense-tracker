@@ -1,10 +1,12 @@
+import ExpensePieChart from "../components/ExpensePieChart";
 import { useEffect, useState } from "react";
-
+import MonthlyChart from "../components/MonthlyChart";
 import Navbar from "../components/Navbar";
 import SummaryCards from "../components/SummaryCards";
 import TransactionForm from "../components/TransactionForm";
 import TransactionList from "../components/TransactionList";
 import api from "../services/api";
+import BudgetCard from "../components/BudgetCard";
 
 
 function Dashboard() {
@@ -38,6 +40,7 @@ function Dashboard() {
         </p>
 
         <SummaryCards transactions={transactions} />
+        <BudgetCard transactions={transactions} />
 
         <TransactionForm
   fetchTransactions={fetchTransactions}
@@ -50,6 +53,8 @@ function Dashboard() {
     fetchTransactions={fetchTransactions}
     setEditTransaction={setEditTransaction}
 />
+<ExpensePieChart transactions={transactions} />
+<MonthlyChart transactions={transactions} />
       </div>
     </div>
   );
