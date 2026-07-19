@@ -6,7 +6,7 @@ A modern and responsive **Expense Tracker** built with **React.js** that helps u
 
 ## 🚀 Live Demo
 
-🔗 https://github.com/pratibhasaini2005/expense-tracker
+🔗 https://expense-tracker-client-ljs9.onrender.com/
 
 ---
 
