@@ -40,15 +40,70 @@ A modern and responsive **Expense Tracker** built with **React.js** that helps u
 ## 📂 Project Structure
 
 ```
-expense-tracker/
-│── public/
-│── src/
-│   ├── components/
-│   ├── App.js
-│   ├── index.js
-│   ├── App.css
-│── package.json
-│── README.md
+Expense-Tracker/
+│
+├── client/                 (React Frontend)
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── ProtectedRoute.jsx
+│   │   │   ├── TransactionForm.jsx
+│   │   │   ├── TransactionList.jsx
+│   │   │   ├── SummaryCards.jsx
+│   │   │   ├── BudgetCard.jsx
+│   │   │   ├── PieChart.jsx
+│   │   │   └── MonthlyChart.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Profile.jsx
+│   │   │   ├── NotFound.jsx
+│   │   │   ├── ForgotPassword.jsx   (Kal banega)
+│   │   │   └── ResetPassword.jsx    (Kal banega)
+│   │   │
+│   │   ├── context/
+│   │   │   └── AuthContext.jsx
+│   │   │
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   │
+│   └── package.json
+│
+├── server/                 (Node.js + Express Backend)
+│   ├── config/
+│   │   └── db.js
+│   │
+│   ├── controllers/
+│   │   ├── userController.js
+│   │   └── transactionController.js
+│   │
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   │
+│   ├── models/
+│   │   ├── User.js
+│   │   └── Transaction.js
+│   │
+│   ├── routes/
+│   │   ├── userRoutes.js
+│   │   └── transactionRoutes.js
+│   │
+│   ├── utils/
+│   │   └── generateToken.js
+│   │
+│   ├── .env
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
 ```
 
 ---
