@@ -19,6 +19,9 @@ A modern and responsive **Expense Tracker** built with **React.js** that helps u
 - ⚡ Instant UI updates with React State
 - 📱 Fully Responsive Design
 - 🎨 Clean and modern interface
+- 📅 Date-wise transaction history
+- 🔍 Search & Filter transactions
+- 📊 Charts & Analytics
 
 ---
 
@@ -29,7 +32,8 @@ A modern and responsive **Expense Tracker** built with **React.js** that helps u
 | ⚛️ React.js | Frontend Framework |
 | HTML5 | Structure |
 | CSS3 | Styling |
-| JavaScript (ES6+) | Functionality |
+| JavaScript (ES6+) | Functionality | API |
+| Backend | API |
 
 ---
 
@@ -78,7 +82,7 @@ npm start
 The application will run at:
 
 ```
-http://localhost:3000
+http://localhost:5000
 ```
 
 ---
@@ -97,12 +101,9 @@ http://localhost:3000
 
 ## 🎯 Future Improvements
 
-- 📅 Date-wise transaction history
-- 🔍 Search & Filter transactions
-- 📊 Charts & Analytics
 - 🌙 Dark Mode
 - ☁️ Firebase/MongoDB integration
-- 🔐 User Authentication
+
 
 ---
 
