@@ -122,6 +122,16 @@ return (
             </div>
 
           </div>
+                 
+                
+                <div className="flex justify-start mb-4">
+  <Link
+    to="/forgot-password"
+    className="text-white text-sm hover:underline"
+  >
+    Forgot Password?
+  </Link>
+</div>
           <button
             type="submit"
             disabled={loading}
