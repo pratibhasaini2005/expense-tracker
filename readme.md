@@ -10,17 +10,6 @@ A modern and responsive **Expense Tracker** built with **React.js** that helps u
 
 ---
 
-## 📸 Preview
-
-> Add a screenshot of your application here.
-
-```md
-assets/
-└── preview.png
-```
-
----
-
 ## ✨ Features
 
 - ➕ Add new income and expense transactions
